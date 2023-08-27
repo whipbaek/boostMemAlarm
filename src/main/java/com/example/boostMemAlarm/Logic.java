@@ -53,7 +53,7 @@ public class Logic {
         }
 
         if(msg != null) {
-            pub.publishMessage("부스트 알람", msg);
+            pub.publishMessage("부스트알람", msg);
         }
     }
 

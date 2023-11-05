@@ -41,6 +41,34 @@ public class Logic {
             msg = CHECK_IN;
         }
 
+        // AM 09:50 [월]
+        if (hour == 9 && minute == 50) {
+            if(day == MON.getDay()){
+                msg = SPRINT_DISCUSSION;
+
+            }
+
+            else if(day == FRI.getDay()){
+                msg = TEAM_REVIEW;
+            }
+
+            else{
+                msg = DAILY_SCRUM;
+            }
+        }
+
+        // PM 12:45 [월, 수]
+        if (hour == 12 && minute == 45){
+            if(day == MON.getDay() || day == WED.getDay()){
+                msg = MASTER_MON_WED;
+            }
+        }
+
+        // PM 14:45 [금]
+        if (day == FRI.getDay() && hour == 14 && minute == 45){
+            msg = PEER_SESSION;
+        }
+
         // PM 19:00 [월 - 금]
         if (hour == 19 && minute == 0) {
             msg = CHECK_OUT;

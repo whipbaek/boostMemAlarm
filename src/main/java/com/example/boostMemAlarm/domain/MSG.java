@@ -22,6 +22,9 @@ public enum MSG {
     // PM 12:45 [월, 수]
     MASTER_MON_WED("[PM 12:45] *마스터 클래스 시작 15분 전!* :teacher: "),
 
+    // PM 15:45 [temp]
+    MASTER_WED_TEMP("[PM 15:45] *마스터 클래스 시작 15분 전!* :teacher: "),
+
     // PM 14:45 [금]
     PEER_SESSION("[PM 14:45] 피어세션 시작 15분 전! :man-cartwheeling:"),
 

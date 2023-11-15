@@ -59,7 +59,7 @@ public class Logic {
 
         // PM 12:45 [월, 수]
         if (hour == 12 && minute == 45){
-            if(day == MON.getDay()){
+            if(day == MON.getDay() && day == WED.getDay()){
                 msg = MASTER_MON_WED;
             }
         }
@@ -67,11 +67,6 @@ public class Logic {
         // PM 14:45 [금]
         if (day == FRI.getDay() && hour == 14 && minute == 45){
             msg = PEER_SESSION;
-        }
-
-        // PM 15:45 [수]
-        if (day == WED.getDay() && hour == 15 && minute == 45){
-            msg = MASTER_WED_TEMP;
         }
 
         // PM 19:00 [월 - 금]

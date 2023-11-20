@@ -59,7 +59,7 @@ public class Logic {
 
         // PM 12:45 [월, 수]
         if (hour == 12 && minute == 45){
-            if(day == MON.getDay() && day == WED.getDay()){
+            if(day == MON.getDay() || day == WED.getDay()){
                 msg = MASTER_MON_WED;
             }
         }

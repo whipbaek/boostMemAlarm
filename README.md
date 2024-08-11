@@ -1,8 +1,7 @@
 
 # 부스트알람 봇
 
-![다운로드](https://github.com/user-attachments/assets/537d2568-6f3b-4c61-8a4b-e4abf1e37d89)
-
+<img src="https://github.com/user-attachments/assets/537d2568-6f3b-4c61-8a4b-e4abf1e37d89"  width="400" height="400"/>
 
 
 ### 개요
